@@ -1,0 +1,120 @@
+IFT6150 Automne 2017 TP1
+
+L'énoncé du tp1 ainsi que les programmes fournis se trouvent sur le site
+du cours:
+
+http://www.iro.umontreal.ca/~mignotte/ift6150.html
+
+Le TP1 est à remettre le vendredi 19 octobre 2018 en remise electronique (en pdf) avant 16h30 
+(c'est-à-dire au tout début de la session des TP).
+
+Pénalité de 10% par 24h de retard.
+
+Vous devez fournir les programmes suivants:
+
+    TpIFT6150-1-Aa.c
+    TpIFT6150-1-Ab.c
+    TpIFT6150-1-Ac.c
+    TpIFT6150-1-Ad.c
+    TpIFT6150-1-Ae.c
+    TpIFT6150-1-Af.c
+
+    TpIFT6150-1-Ba.c
+    TpIFT6150-1-Bb.c
+
+    TpIFT6150-1-Ca.c
+    TpIFT6150-1-Cb.c
+
+    TpIFT6150-1-D.c
+
+qui doivent produire les images suivantes selon ce qui vous est demandé
+dans l'énoncé du TP1:
+
+     image-TpIFT6150-1-Ab.pgm
+     image-TpIFT6150-1-Ac.pgm
+     image-TpIFT6150-1-Ae-img.pgm  (c'est-à-dire image du carré)
+     image-TpIFT6150-1-Ae-spc.pgm  (c'est-à-dire module de la FFT de
+                                    l'image du carré)
+     image-TpIFT6150-1-Ba_0_1.pgm
+     image-TpIFT6150-1-Ba_2_5.pgm
+     image-TpIFT6150-1-Ba_6_15.pgm
+     image-TpIFT6150-1-Ba_16_63.pgm
+     image-TpIFT6150-1-Bb_0_1.pgm
+     image-TpIFT6150-1-Bb_2_5.pgm
+     image-TpIFT6150-1-Bb_6_15.pgm
+     image-TpIFT6150-1-Bb_16_63.pgm
+     image-TpIFT6150-1-Ca_square.pgm  (c'est-à-dire image du carré)
+     image-TpIFT6150-1-Ca_convolution.pgm (c'est-à-dire image de
+                                           l'auto-convolution du carré)
+     image-TpIFT6150-1-Cb_filtered.pgm (c'est-à-dire image de la
+                                        texture convoluée  avec le
+                                        masque)
+     image-TpIFT6150-1-Da.pgm (c'est-à-dire image originale)
+     image-TpIFT6150-1-Db.pgm (c'est-à-dire image sous-échantillonée)
+
+et calculer la phase demandée pour la question Af.
+
+Pour la question Ac, on doit pouvoir spécifier l'image en argument du programme.
+Pour la question Ae, on doit pouvoir entrer la taille du carré au clavier.
+Pour la question Ca, on doit pouvoir entrer la taille du carré au clavier.
+Pour la question Cb, on doit pouvoir spécifier la taille du masque au clavier.
+
+Nota: Pour entrer un entier au clavier, vous pouvez utiliser la
+commande C   scanf("%d",&size); qui rentrera au clavier le nombre
+entier dans la variable size.
+
+Pour compiler le programme File
+ --> ./compilegcc File
+Pour executer le programme
+ --> ./File
+Pour editer le programme
+ --> emacs File.c
+
+Pour la remise électronique des fichiers demandés, la commande est:
+
+ssh remise
+remise ift6150 tp1 <fichiers>
+
+N'oubliez pas de vérifier que vous avez bien remis vos fichiers
+une fois la commande remise exécutée grâce à la commande:
+
+remise -v ift6150 tp1
+
+Les programmes doivent compiler sous Linux avec le script fourni compilegcc et les fichiers 
+FonctionDemo1.h et FonctionDemo1.c fournis
+(sinon, 0 pt pour l'exécution).
+
+                               *****
+
+Barême pour le TP1 (Le maximum des points alloués est indiqué ci-dessous):
+
+Exécution des programmes et implémentation des algorithmes: 50 points
+
+Distribution des points par question:
+(la moitié des points pour l'exécution, l'autre moitié pour l'exactitude du code)
+         - Ab: 3 points
+         - Ac: 3 points
+         - Ae: 3 points
+         - Af: 3 points (imprimer la valeur du module et de la phase
+                         pour un point avant et après translation)
+         - Ba: 8 points
+         - Bb: 8 points
+         - Ca: 6 points
+         - Cb: 6 points
+         - Da: 5 points
+         - Db: 5 points
+
+Rapport: 50 points
+         Distribution des points:
+         - Réponses aux questions posées dans l'énoncé du tp1:
+                    * Ad: 6 points
+                    * Ae: 6 points
+                    * Af: 6 points
+                    * Ca: 6 points
+                    * Cb: 6 points
+                    * Db: 15 points
+                    * Dc: 5 points
+
+Total: 100 points.
+
+
