@@ -1,6 +1,6 @@
 /*------------------------------------------------------*/
 /* Prog    : TpIFT6150-1-Ab.c                           */
-/* Auteur  :                                            */
+/* Auteur  : Ahmed Amine DAOU                           */
 /* Date    : 01/10/2018                                */
 /* version :                                            */
 /* langage : C                                          */
@@ -9,10 +9,7 @@
 /*------------------------------------------------*/
 /* FICHIERS INCLUS -------------------------------*/
 /*------------------------------------------------*/
-/*############################################
-Ahmed Amine DAOU ahmed.amine.daou@umontreal.ca
-Wrushabh Warshe wrushabh.warshe@umontreal.ca
-#############################################*/
+
 #include <stdio.h> 
 #include <math.h> 
 #include <stdlib.h> 
