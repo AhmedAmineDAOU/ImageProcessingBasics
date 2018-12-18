@@ -1,7 +1,7 @@
 /*------------------------------------------------------*/
-/* Prog    : TpIFT6150-1-Aa.c                           */
-/* Auteurs : Nicolas Hurtubise, Mercedes Gauthier       */
-/* Date    : 18/10/2016                                 */
+/* Prog    : TpIFT6150-1-Cb.c                           */
+/* Auteurs : Ahmed Amine DAOU                           */
+/* Date    : 02/10/2018                                 */
 /* version : 1                                          */
 /* langage : C                                          */
 /* labo    : DIRO                                       */
@@ -10,10 +10,7 @@
 /*------------------------------------------------*/
 /* FICHIERS INCLUS -------------------------------*/
 /*------------------------------------------------*/
-/*############################################
-Ahmed Amine DAOU ahmed.amine.daou@umontreal.ca
-Wrushabh Warshe wrushabh.warshe@umontreal.ca
-#############################################*/
+
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
